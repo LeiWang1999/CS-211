@@ -1,0 +1,4 @@
+all:
+	gcc -Wall -Werror -fsanitize=address sixth.c -o sixth
+clean:
+	rm -f *o sixth
